@@ -26,6 +26,10 @@ WORKDIR /app
 # Copy node_modules and source from build image
 COPY --from=build /app /app
 
+# Create uploads directory and change ownership to appuser
+RUN mkdir -p /app/uploads && \
+    chown -R appuser:appuser /app
+
 ENV NODE_ENV=production \
     PORT=3000
 

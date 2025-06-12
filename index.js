@@ -12,7 +12,10 @@ const OpenAI = require('openai');
 
 // -------------------- CONFIGURATION -------------------- //
 const PORT = process.env.PORT || 3000;
-const UPLOAD_DIR = path.join(__dirname, 'uploads');
+// Use temp directory in production, local uploads in development
+const UPLOAD_DIR = process.env.NODE_ENV === 'production' 
+  ? path.join('/tmp', 'uploads') 
+  : path.join(__dirname, 'uploads');
 
 // Ensure upload directory exists
 fs.ensureDirSync(UPLOAD_DIR);
