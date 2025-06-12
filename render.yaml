@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: pdf-converter-server
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    region: oregon
+    branch: main
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+      - key: OPENAI_API_KEY
+        sync: false  # This will be set manually in Render dashboard
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: MAX_PAGES
+        value: "10"
+    healthCheckPath: /health
+    scaling:
+      minInstances: 1
+      maxInstances: 3 

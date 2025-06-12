@@ -53,6 +53,15 @@ app.get('/', (_req, res) => {
   res.send('PDF Converter Server is running');
 });
 
+// Health check endpoint for Render
+app.get('/health', (req, res) => {
+  res.status(200).json({ 
+    status: 'healthy', 
+    timestamp: new Date().toISOString(),
+    service: 'pdf-converter-server'
+  });
+});
+
 app.post('/upload', upload.single('file'), async (req, res) => {
   if (!req.file) {
     logger.warn('No file uploaded');
