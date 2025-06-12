@@ -4,3 +4,4 @@ uploads
 server.log
 .DS_Store
 *.zip
+.env
