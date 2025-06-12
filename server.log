@@ -1,0 +1,128 @@
+2025-06-11T21:25:04.636Z [INFO]: Server started on port 3000
+2025-06-11T21:25:23.720Z [INFO]: Server started on port 3000
+2025-06-11T21:27:44.581Z [INFO]: Server started on port 3000
+2025-06-11T21:27:51.710Z [INFO]: Received file: 3_3_Rivers_Inc_Note_to_PE_Fund_98d03bd3.docx (16310 bytes)
+2025-06-11T21:27:51.717Z [ERROR]: LibreOffice error: /bin/sh: libreoffice: command not found
+
+2025-06-11T21:27:51.717Z [ERROR]: Processing failed: Conversion failed
+2025-06-11T21:27:51.718Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/36e741bb-ba47-488c-9f13-242ce64bcff3.docx
+2025-06-11T21:32:30.749Z [INFO]: Server started on port 3000
+2025-06-11T21:33:06.664Z [INFO]: Received file: 3_3_Rivers_Inc_Note_to_PE_Fund_98d03bd3.docx (16310 bytes)
+2025-06-11T21:33:10.813Z [INFO]: Conversion successful: 3_3_Rivers_Inc_Note_to_PE_Fund_98d03bd3.docx -> 3_3_Rivers_Inc_Note_to_PE_Fund_98d03bd3.pdf
+2025-06-11T21:33:10.816Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/98f6972e-943a-46fa-8f56-58de60c0f990.docx
+2025-06-11T21:33:10.816Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/98f6972e-943a-46fa-8f56-58de60c0f990.pdf
+2025-06-11T21:40:24.252Z [INFO]: Server started on port 3000
+2025-06-11T21:44:43.421Z [INFO]: Server started on port 3000
+2025-06-11T21:48:10.018Z [ERROR]: Processing failed: OPENAI_API_KEY env variable is required
+2025-06-11T21:48:10.018Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/9816c9f1-9962-4b85-9216-1ab93616c71c.pdf
+2025-06-11T21:51:28.993Z [INFO]: Server started on port 3000
+2025-06-11T21:51:50.339Z [ERROR]: Processing failed: 400 Invalid chat format. Expected 'text' field in text type content part to be a string.
+2025-06-11T21:51:50.341Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/86af2a9e-47dc-482f-907c-564de061d2a1.pdf
+2025-06-11T21:54:07.952Z [INFO]: Server started on port 3000
+2025-06-11T21:55:32.816Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/5e1afdd1-5ea6-47b5-b254-2b4643b4ce86.pdf
+2025-06-11T21:55:32.817Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.1-cmp.png
+2025-06-11T21:55:32.817Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.2-cmp.png
+2025-06-11T21:55:32.817Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.3-cmp.png
+2025-06-11T21:55:32.818Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.4-cmp.png
+2025-06-11T21:55:32.818Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.5-cmp.png
+2025-06-11T21:55:32.818Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.6-cmp.png
+2025-06-11T21:55:32.819Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.7-cmp.png
+2025-06-11T21:55:32.819Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.8-cmp.png
+2025-06-11T21:55:32.820Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.9-cmp.png
+2025-06-11T21:55:32.820Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.10-cmp.png
+2025-06-11T21:55:32.820Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.11-cmp.png
+2025-06-11T21:55:32.820Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.12-cmp.png
+2025-06-11T21:55:32.821Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.13-cmp.png
+2025-06-11T21:55:32.821Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.14-cmp.png
+2025-06-11T21:55:32.821Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/fb336e20-2dc3-4399-a8ed-5b144c752f3d/untitled.15-cmp.png
+2025-06-11T22:03:23.820Z [INFO]: Server started on port 3000
+2025-06-11T22:04:50.039Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.1-cmp.png
+2025-06-11T22:04:50.040Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.2-cmp.png
+2025-06-11T22:04:50.040Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.3-cmp.png
+2025-06-11T22:04:50.040Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.4-cmp.png
+2025-06-11T22:04:50.041Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.5-cmp.png
+2025-06-11T22:04:50.041Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.6-cmp.png
+2025-06-11T22:04:50.041Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.7-cmp.png
+2025-06-11T22:04:50.041Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.8-cmp.png
+2025-06-11T22:04:50.042Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.9-cmp.png
+2025-06-11T22:04:50.042Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.10-cmp.png
+2025-06-11T22:04:50.042Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.11-cmp.png
+2025-06-11T22:04:50.042Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.12-cmp.png
+2025-06-11T22:04:50.042Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.13-cmp.png
+2025-06-11T22:04:50.043Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.14-cmp.png
+2025-06-11T22:04:50.043Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a1b2bbed-91f0-4858-a316-46604223d0c4/untitled.15-cmp.png
+2025-06-11T22:06:41.471Z [INFO]: Server started on port 3000
+2025-06-11T22:07:46.296Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.1-cmp.png
+2025-06-11T22:07:46.296Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.2-cmp.png
+2025-06-11T22:07:46.297Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.3-cmp.png
+2025-06-11T22:07:46.297Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.4-cmp.png
+2025-06-11T22:07:46.297Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.5-cmp.png
+2025-06-11T22:07:46.297Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.6-cmp.png
+2025-06-11T22:07:46.298Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.7-cmp.png
+2025-06-11T22:07:46.298Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.8-cmp.png
+2025-06-11T22:07:46.298Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.9-cmp.png
+2025-06-11T22:07:46.298Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.10-cmp.png
+2025-06-11T22:07:46.299Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.11-cmp.png
+2025-06-11T22:07:46.299Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.12-cmp.png
+2025-06-11T22:07:46.299Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.13-cmp.png
+2025-06-11T22:07:46.299Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.14-cmp.png
+2025-06-11T22:07:46.299Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/419c354e-6867-471b-91bd-6729e6556fc3/untitled.15-cmp.png
+2025-06-11T22:10:31.207Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.1-cmp.png
+2025-06-11T22:10:31.207Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.2-cmp.png
+2025-06-11T22:10:31.208Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.3-cmp.png
+2025-06-11T22:10:31.208Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.4-cmp.png
+2025-06-11T22:10:31.208Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.5-cmp.png
+2025-06-11T22:10:31.208Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.6-cmp.png
+2025-06-11T22:10:31.209Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.7-cmp.png
+2025-06-11T22:10:31.209Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.8-cmp.png
+2025-06-11T22:10:31.209Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.9-cmp.png
+2025-06-11T22:10:31.209Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.10-cmp.png
+2025-06-11T22:10:31.210Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.11-cmp.png
+2025-06-11T22:10:31.210Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.12-cmp.png
+2025-06-11T22:10:31.210Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.13-cmp.png
+2025-06-11T22:10:31.210Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.14-cmp.png
+2025-06-11T22:10:31.210Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/c9f191c1-f49b-4e64-b6d0-4132bd612df5/untitled.15-cmp.png
+2025-06-11T22:13:01.364Z [INFO]: Server started on port 3000
+2025-06-11T22:16:14.270Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.1-cmp.png
+2025-06-11T22:16:14.271Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.2-cmp.png
+2025-06-11T22:16:14.272Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.3-cmp.png
+2025-06-11T22:16:14.272Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.4-cmp.png
+2025-06-11T22:16:14.273Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.5-cmp.png
+2025-06-11T22:16:14.273Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.6-cmp.png
+2025-06-11T22:16:14.273Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.7-cmp.png
+2025-06-11T22:16:14.274Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.8-cmp.png
+2025-06-11T22:16:14.274Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.9-cmp.png
+2025-06-11T22:16:14.274Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.10-cmp.png
+2025-06-11T22:16:14.274Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.11-cmp.png
+2025-06-11T22:16:14.275Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.12-cmp.png
+2025-06-11T22:16:14.275Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.13-cmp.png
+2025-06-11T22:16:14.275Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.14-cmp.png
+2025-06-11T22:16:14.275Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.15-cmp.png
+2025-06-11T22:16:14.275Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.16-cmp.png
+2025-06-11T22:16:14.275Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.17-cmp.png
+2025-06-11T22:16:14.275Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.18-cmp.png
+2025-06-11T22:16:14.276Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/94349d29-7e9b-44ef-afb3-d11053492b8e/untitled.19-cmp.png
+2025-06-11T22:18:58.864Z [INFO]: Server started on port 3000
+2025-06-11T22:21:58.939Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.1-cmp.png
+2025-06-11T22:21:58.940Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.2-cmp.png
+2025-06-11T22:21:58.941Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.3-cmp.png
+2025-06-11T22:21:58.941Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.4-cmp.png
+2025-06-11T22:21:58.941Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.5-cmp.png
+2025-06-11T22:21:58.941Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.6-cmp.png
+2025-06-11T22:21:58.942Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.7-cmp.png
+2025-06-11T22:21:58.942Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.8-cmp.png
+2025-06-11T22:21:58.942Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.9-cmp.png
+2025-06-11T22:21:58.942Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.10-cmp.png
+2025-06-11T22:21:58.943Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.11-cmp.png
+2025-06-11T22:21:58.943Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.12-cmp.png
+2025-06-11T22:21:58.943Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.13-cmp.png
+2025-06-11T22:21:58.943Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.14-cmp.png
+2025-06-11T22:21:58.944Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.15-cmp.png
+2025-06-11T22:21:58.944Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.16-cmp.png
+2025-06-11T22:21:58.944Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.17-cmp.png
+2025-06-11T22:21:58.944Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.18-cmp.png
+2025-06-11T22:21:58.944Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/a2db124e-bec6-4447-a1e7-fb3bfd997496/untitled.19-cmp.png
+2025-06-11T22:37:58.890Z [INFO]: Deleted file: /Users/boubou/pdf-converter-server/uploads/53f0bfb9-c7f2-411f-a6c1-566bd0171069.pdf
+2025-06-11T23:45:00.428Z [INFO]: Server started on port 3000
+2025-06-11T23:50:30.915Z [INFO]: Server started on port 3000
+2025-06-11T23:52:55.722Z [INFO]: Server started on port 3000
