@@ -12,11 +12,13 @@ COPY . .
 # ---------- runtime stage ----------
 FROM node:18-bookworm-slim
 
-# Install LibreOffice headless and necessary fonts
+# Install LibreOffice, GraphicsMagick/ImageMagick, and necessary fonts
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
       libreoffice-core libreoffice-writer libreoffice-calc libreoffice-impress \
-      fonts-dejavu fonts-liberation && \
+      fonts-dejavu fonts-liberation \
+      graphicsmagick imagemagick \
+      ghostscript && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Create non-root user
