@@ -9,6 +9,7 @@ const winston = require('winston');
 const { fromPath: pdf2picFromPath } = require('pdf2pic');
 const sharp = require('sharp');
 const OpenAI = require('openai');
+const pLimit = require('p-limit');
 
 // -------------------- CONFIGURATION -------------------- //
 const PORT = process.env.PORT || 3000;
@@ -244,38 +245,56 @@ function getOpenAI() {
 }
 
 const MAX_PAGES = parseInt(process.env.MAX_PAGES || '20', 10); // safety limit
+const CONCURRENCY = parseInt(process.env.CONCURRENCY || '5', 10); // parallel OpenAI calls
 
 async function convertPdfAndExtractText(pdfPath, maxPages) {
   const tempImgDir = path.join(path.dirname(pdfPath), uuidv4());
   await fs.ensureDir(tempImgDir);
+
   const options = {
-    density: 200,
+    density: parseInt(process.env.CONVERT_DPI || '200', 10),
     savePath: tempImgDir,
     format: 'png',
     width: 1654 // ~A4 200dpi
   };
   const convert = pdf2picFromPath(pdfPath, options);
 
-  // Determine page count via pdf2pic convertSinglePage ??? pdf2pic does not expose count; we iterate until fail; rely on maxPages.
   const images = [];
   const pagesText = [];
+  const limit = pLimit(CONCURRENCY);
+  const extractionTasks = [];
+
   for (let page = 1; page <= maxPages; page++) {
     try {
-      const result = await convert(page, false); // false: no logging
+      const result = await convert(page, false); // false = no logging
       const imgPath = result.path;
-      // optionally compress via sharp
+
+      // Compress image to speed up upload to OpenAI
       const compressedPath = path.join(tempImgDir, `${path.parse(imgPath).name}-cmp.png`);
       await sharp(imgPath).png({ quality: 80 }).toFile(compressedPath);
-      await fs.remove(imgPath); // remove original heavy image
+      await fs.remove(imgPath);
+
       images.push(compressedPath);
 
-      const text = await extractTextFromImage(compressedPath);
-      pagesText.push({ page, text });
+      // Queue text extraction concurrently (up to CONCURRENCY)
+      extractionTasks.push(
+        limit(async () => {
+          const text = await extractTextFromImage(compressedPath);
+          return { page, text };
+        })
+      );
     } catch (err) {
       if (page === 1) throw err; // if first page fails, propagate
-      break; // assume we've reached end of pages
+      break; // reached end of document
     }
   }
+
+  // Wait for all extraction tasks to finish
+  const extracted = await Promise.all(extractionTasks);
+  // Sort to keep page order
+  extracted.sort((a, b) => a.page - b.page);
+  pagesText.push(...extracted);
+
   return { images, pagesText };
 }
 

@@ -14,9 +14,13 @@ services:
       - key: OPENAI_API_KEY
         sync: false  # This will be set manually in Render dashboard
       - key: OPENAI_MODEL
-        value: gpt-4o-mini
+        value: gpt-4.1-nano
       - key: MAX_PAGES
         value: "10"
+      - key: CONCURRENCY
+        value: "5"
+      - key: CONVERT_DPI
+        value: "200"
     healthCheckPath: /health
     scaling:
       minInstances: 1
